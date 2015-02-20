@@ -19,8 +19,8 @@ public class Maze : MonoBehaviour {
     // offset to reach [north, east, south, west] neighboring cell
     int[] DX = {0, 1, 0, -1};
     int[] DY = {1, 0, -1, 0};
-	
-	// Procedurally generates and instantiates a maze
+    
+    // Procedurally generates and instantiates a maze
     // Maze generation logic should probably be separated from game object instantiation at some point
 	void Start () {
 
