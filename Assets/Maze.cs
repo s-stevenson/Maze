@@ -10,9 +10,9 @@ public class Maze : MonoBehaviour {
     public GameObject player;
     public Material wallMat;
     public Material floorMat;
-
-	static readonly int WIDTH = 50;
-	static readonly int HEIGHT = 50;
+    
+    static readonly int WIDTH = 50;
+    static readonly int HEIGHT = 50;
     static readonly int SCALE = 4;
     Cell[,] Map = new Cell[WIDTH, HEIGHT];
 
